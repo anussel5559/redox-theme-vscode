@@ -5,10 +5,10 @@
     "publisher": "anussel5559",
     "repository": {
         "type": "git",
-        "url": "git://github.com/anussel559/redox-theme-vscode.git"
+        "url": "https://github.com/anussel5559/redox-theme-vscode.git"
     },
     "icon": "images/Redox-Logo.png",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.47.0"
     },
