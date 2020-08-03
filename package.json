@@ -1,0 +1,26 @@
+{
+    "name": "redox-theme-vscode",
+    "displayName": "redox-vscode-color-theme",
+    "description": "Redox Engine VS Code Theme",
+    "publisher": "anussel5559",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/anussel559/redox-theme-vscode.git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Redox",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Redox-color-theme.json"
+            }
+        ]
+    }
+}
