@@ -422,6 +422,30 @@
 		},
 		{
 			"scope": [
+				"variable.other.object.ts",
+				"variable.other.contant.ts",
+				"meta.definition.variable.ts",
+				"variable.other.object.js",
+				"variable.other.contant.js",
+				"meta.definition.variable.js",
+				"variable.other.object.tsx",
+				"variable.other.contant.tsx",
+				"meta.definition.variable.tsx",
+				"variable.other.object.jsx",
+				"variable.other.contant.jsx",
+				"meta.definition.variable.jsx",
+				"variable.parameter",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.tsx",
+				"meta.object-literal.key.jsx"
+			],
+			"settings": {
+				"foreground": "#85d2c0"
+			}
+		},
+		{
+			"scope": [
 				"variable",
 				"string constant.other.placeholder"
 			],
@@ -453,7 +477,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00b388",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -499,14 +524,6 @@
 		},
 		{
 			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
-			"scope": [
 				"support.other.variable",
 				"string.other.link"
 			],
@@ -521,12 +538,20 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.trycatch.ts"
+			],
+			"settings": {
+				"foreground": "#00b388",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -540,7 +565,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#dc5034"
 			}
 		},
 		{
@@ -1074,7 +1099,11 @@
 				"storage.type.ts",
 				"storage.type.js",
 				"storage.type.tsx",
-				"storage.type.jsx"
+				"storage.type.jsx",
+				"storage.type.interface.ts",
+				"storage.type.interface.js",
+				"storage.type.interface.tsx",
+				"storage.type.interface.jsx"
 			],
 			"settings": {
 				"foreground": "#DC5034",
